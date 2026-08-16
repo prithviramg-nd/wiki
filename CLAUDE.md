@@ -13,6 +13,7 @@ Reference: https://cloud.google.com/blog/products/data-analytics/how-the-open-kn
 - `content/index.md` — catalog of topics, kept up to date whenever a page is added.
 - `content/log.md` — append-only chronological record of what changed and when.
 - `content/<topic>/<page>.md` — individual pages, grouped into topic folders.
+- `raw/<topic>/<file>` — the original source file the user shared (as-is), when there is one. Lives outside `content/` so Quartz never builds/publishes it as a page. The polished page's `resource:` frontmatter points to it (relative path, e.g. `raw/computer-vision/my-notes.md`) alongside external source URLs. Note: this repo is public, so anything under `raw/` is visible in the GitHub file browser (just not on the built site) — fine for public-ish notes, worth flagging to the user before saving anything sensitive there.
 
 ## Page frontmatter
 
@@ -23,7 +24,7 @@ Every page starts with:
 type: Concept        # Concept | Index | Log | Source | Person | ... — free-form but consistent
 title: Page Title
 description: One sentence, shown in link previews and search.
-resource: https://... # optional — link to the original source, if any
+resource: https://... # optional — link to the original source: external URL, or a raw/<topic>/<file> path
 tags: [some, tags]
 timestamp: 2026-08-16T00:00:00Z  # last-substantive-edit time
 ---
