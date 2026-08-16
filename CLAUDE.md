@@ -37,6 +37,8 @@ timestamp: 2026-08-16T00:00:00Z  # last-substantive-edit time
 - Prefer editing/extending an existing page over creating a near-duplicate one — the wiki should compound, not fragment.
 - Keep pages readable as plain markdown first; frontmatter is for machine-queryable metadata, not the primary content.
 - The user shares source material (a file, a link, pasted notes) and expects it turned into page(s) here — they don't manage git themselves for this. Show a summary of the page(s) you'd add/change and wait for explicit go-ahead before committing/pushing; don't push automatically.
+- **Prefer showing over telling.** Where the source material supports it, include: the actual formulas (not just prose paraphrase), a plain-language explanation of what each term/variable means and why the formula holds, a table when comparing options/variants/results, and a `\`\`\`mermaid` flow/sequence diagram for anything that's a pipeline, architecture, or multi-step process. Don't force these where they don't fit (e.g. a purely conceptual or historical note) — the bar is "does this make the idea click faster," not "does every note have four sections."
+- Math: inline `$...$`, block `$$...$$` (KaTeX). Diagrams: fenced `\`\`\`mermaid` blocks — rendered client-side, no special wrapper needed. See a worked example in [[computer-vision/principal-masked-autoencoder|PMAE]].
 
 ## Ingesting from Notion
 
