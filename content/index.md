@@ -14,5 +14,6 @@ This is a personal knowledge wiki built in the [Open Knowledge Format](https://c
   - [[computer-vision/image-formation|Image Formation]]
   - [[computer-vision/camera-calibration|Camera Calibration]]
   - [[computer-vision/optical-flow|Optical Flow]]
+  - [[computer-vision/principal-masked-autoencoder|PMAE — Principal Masked Autoencoder]]
 
 See [[log|log]] for a chronological record of what was added and when.
