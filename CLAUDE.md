@@ -35,6 +35,11 @@ timestamp: 2026-08-16T00:00:00Z  # last-substantive-edit time
 - When adding a new page, add a link to it from `content/index.md` and append an entry to `content/log.md`.
 - Prefer editing/extending an existing page over creating a near-duplicate one — the wiki should compound, not fragment.
 - Keep pages readable as plain markdown first; frontmatter is for machine-queryable metadata, not the primary content.
+- The user shares source material (a file, a link, pasted notes) and expects it turned into page(s) here — they don't manage git themselves for this. Show a summary of the page(s) you'd add/change and wait for explicit go-ahead before committing/pushing; don't push automatically.
+
+## Ingesting from Notion
+
+Notion page images are served via presigned S3 URLs with a 5-minute (`X-Amz-Expires=300`) TTL. Fetch the page and immediately `curl` every image URL in the same turn (one Bash call, parallel `&` jobs) — don't batch many URLs through an intermediate file write first, since generating a large JSON/text blob can itself burn through the window before any download starts. If a URL expires (`AccessDenied: Request has expired`), re-fetch the page for fresh URLs and retry immediately.
 
 ## Frontend (Quartz)
 
