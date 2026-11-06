@@ -15,5 +15,6 @@ This is a personal knowledge wiki built in the [Open Knowledge Format](https://c
   - [[computer-vision/camera-calibration|Camera Calibration]]
   - [[computer-vision/optical-flow|Optical Flow]]
   - [[computer-vision/principal-masked-autoencoder|PMAE — Principal Masked Autoencoder]]
+- [[ai-agents/open-knowledge-format|OKF — Open Knowledge Format]]
 
 See [[log|log]] for a chronological record of what was added and when.
