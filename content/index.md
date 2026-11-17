@@ -21,5 +21,6 @@ This is a personal knowledge wiki built in the [Open Knowledge Format](https://c
 - [[interviewing/bei-vs-traditional|BEI vs Traditional Interview Questions]]
 - [[interviewing/star-model|STAR Model for Structuring Answers]]
 - [[interviewing/unconscious-bias|Unconscious Bias During Interviews]]
+- [[interviewing/bei-sample-questions|BEI Sample Questions (Netradyne Values)]]
 
 See [[log|log]] for a chronological record of what was added and when.

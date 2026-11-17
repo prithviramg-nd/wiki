@@ -32,6 +32,7 @@ A hypothetical answer tells you what a candidate *thinks* they'd do — which te
 - [[interviewing/ksa-model|KSA Model for Interviewing]]
 - [[interviewing/star-model|STAR Model for Structuring Answers]]
 - [[interviewing/unconscious-bias|Unconscious Bias During Interviews]]
+- [[interviewing/bei-sample-questions|BEI Sample Questions (Netradyne Values)]] — a ready-made bank of BEI questions to pull from
 
 ## Source
 
