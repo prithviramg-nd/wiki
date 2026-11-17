@@ -43,3 +43,10 @@ Good probes use open verbs that invite elaboration rather than a yes/no:
 ## Applying this to the KSA model
 
 The funnel/open/probing/closed structure here is *how* you ask questions; [[interviewing/ksa-model|the KSA model]] is *what* you ask questions about — use open-ended + probing questions to draw out a candidate's Knowledge, Skills, and Attitude, then use closed questions to confirm specifics before moving on.
+
+## Related
+
+- [[interviewing/ksa-model|KSA Model for Interviewing]]
+- [[interviewing/bei-vs-traditional|BEI vs Traditional Interview Questions]] — the open/probing question in practice is usually a BEI question
+- [[interviewing/star-model|STAR Model for Structuring Answers]]
+- [[interviewing/unconscious-bias|Unconscious Bias During Interviews]]

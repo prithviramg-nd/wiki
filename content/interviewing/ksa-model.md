@@ -44,6 +44,9 @@ Take the job description (JD) and derive interview questions directly from it, s
 ## Related
 
 - [[interviewing/question-techniques|Interview Questioning Techniques — The Funnel Approach]] — the questioning technique used to actually surface K, S, and A in an interview.
+- [[interviewing/bei-vs-traditional|BEI vs Traditional Interview Questions]] — ask for real-life evidence of K/S/A, not hypotheticals.
+- [[interviewing/star-model|STAR Model for Structuring Answers]]
+- [[interviewing/unconscious-bias|Unconscious Bias During Interviews]]
 
 ## Source
 

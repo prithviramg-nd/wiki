@@ -18,5 +18,8 @@ This is a personal knowledge wiki built in the [Open Knowledge Format](https://c
 - [[ai-agents/open-knowledge-format|OKF — Open Knowledge Format]]
 - [[interviewing/question-techniques|Interview Questioning Techniques — The Funnel Approach]]
 - [[interviewing/ksa-model|KSA Model for Interviewing]]
+- [[interviewing/bei-vs-traditional|BEI vs Traditional Interview Questions]]
+- [[interviewing/star-model|STAR Model for Structuring Answers]]
+- [[interviewing/unconscious-bias|Unconscious Bias During Interviews]]
 
 See [[log|log]] for a chronological record of what was added and when.
